@@ -27182,24 +27182,25 @@ var _motionBackgroundJpgDefault = parcelHelpers.interopDefault(_motionBackground
 const imageAltText = "purple and blue abstract background";
 /**
  * Sort description that expands on your title on the Home component.
- */ const description = "Soy un profesional especializado en Data Science con una s\xf3lida formaci\xf3n en el an\xe1lisis de datos y la resoluci\xf3n de problemas. Estoy comprometido en crear soluciones impactantes a trav\xe9s de la interpretaci\xf3n de datos.";
+ */ const description = "Soy un profesional especializado en Data Science con una s\xf3lida formaci\xf3n en el an\xe1lisis de datos y la resoluci\xf3n de problemas.";
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */ const skillsList = [
-    "An\xe1lisis de Datos",
+    "Big Data",
     "Programaci\xf3n",
+    "Optimizaci\xf3n",
+    "Estad\xedsticas",
     "Visualizaci\xf3n de Datos",
     "Machine Learning",
-    "Resoluci\xf3n de Problemas",
     "Procesamiento de Datos",
-    "Estad\xedsticas", 
+    "Base de Datos", 
 ];
 /**
  * Use this to give more information about what you are passionate about,
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
- */ const detailOrQuote = "Soy un apasionado de la ciencia de datos con un enfoque en la resoluci\xf3n creativa de problemas. Recientemente he completado con \xe9xito mi formaci\xf3n en Data Science, lo que me ha dotado de un s\xf3lido conjunto de habilidades en Python, SQL y an\xe1lisis de datos.";
+ */ const detailOrQuote = "Apasionado de la ciencia de datos con un enfoque en la resoluci\xf3n creativa de problemas. Recientemente he completado con \xe9xito mi formaci\xf3n en Data Science, lo que me ha dotado de un s\xf3lido conjunto de habilidades en Python, SQL, Machine Learning, Pandas, Numpy entre otras tecnolog\xedas de varguardia para el an\xe1lisis de datos.";
 const About = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         className: "padding",
@@ -27211,7 +27212,7 @@ const About = ()=>{
                 alt: imageAltText
             }, void 0, false, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 54,
+                lineNumber: 55,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27227,7 +27228,7 @@ const About = ()=>{
                         children: "Sobre m\xed"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 64,
+                        lineNumber: 65,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27235,12 +27236,12 @@ const About = ()=>{
                         children: description
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 65,
+                        lineNumber: 66,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 66,
+                        lineNumber: 67,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -27255,17 +27256,17 @@ const About = ()=>{
                                 children: skill
                             }, skill, false, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 77,
+                                lineNumber: 78,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 67,
+                        lineNumber: 68,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 80,
+                        lineNumber: 81,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27275,19 +27276,19 @@ const About = ()=>{
                         children: detailOrQuote
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 81,
+                        lineNumber: 82,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 55,
+                lineNumber: 56,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/About.jsx",
-        lineNumber: 53,
+        lineNumber: 54,
         columnNumber: 5
     }, undefined);
 };
@@ -28750,8 +28751,8 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
  *
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
- */ var _designDeskJpeg = require("../images/design-desk.jpeg");
-var _designDeskJpegDefault = parcelHelpers.interopDefault(_designDeskJpeg);
+ */ var _backJpeg = require("/src/images/BACK.jpeg");
+var _backJpegDefault = parcelHelpers.interopDefault(_backJpeg);
 const imageAltText = "desktop with books and laptop";
 /**
  * Project list
@@ -28761,7 +28762,7 @@ const imageAltText = "desktop with books and laptop";
  */ const projectList = [
     {
         title: "API de Recomendaci\xf3n de Pel\xedculas con Machine Learning \uD83C\uDF89",
-        description: "API de Recomendaci\xf3n de Pel\xedculas impulsada por algoritmos de aprendizaje autom\xe1tico. Dise\xf1ada para proporcionar a los usuarios recomendaciones personalizadas de pel\xedculas.",
+        description: "Desarrollo impulsada por algoritmos de aprendizaje autom\xe1tico. Dise\xf1ada para proporcionar a los usuarios recomendaciones personalizadas de pel\xedculas.",
         url: "https://api-recomendacion-de-peliculas.onrender.com/"
     },
     {
@@ -28770,13 +28771,13 @@ const imageAltText = "desktop with books and laptop";
         url: "https://github.com/martinushinahu/Analisis-Sismos-Peru"
     },
     {
-        title: "Mi Sitio Web - Portafolio \uD83C\uDF10",
-        description: "Creado a partir del taller de curr\xedculum de Microsoft e implementado en p\xe1ginas de GitHub. Incluye mi experiencia y habilidades de dise\xf1o.",
+        title: "Desarrollo de Portafolio Web \uD83C\uDF10",
+        description: "Creado a partir del taller de curr\xedculum  de Microsoft e implementado en p\xe1ginas de GitHub. Incluye mi experiencia y habilidades de dise\xf1o, fusionando mis conocimientos en tecnolog\xedas de vanguardia, como React, HTML y CSS.",
         url: "https://github.com/martinushinahu/martin_repo"
     },
     {
         title: "Sistema de Recomendaci\xf3n para Negocios \uD83C\uDFAF",
-        description: "Mi participaci\xf3n como Data Scientist, en colaboraci\xf3n con otros 4 colegas, en crear un sistema de recomendaci\xf3n para empresarios en donde poder invertir en los estados de USA.",
+        description: "Ayuda a brindar una orientaci\xf3n precisa y estrat\xe9gica para tomar decisiones informadas en el \xe1mbito empresarial, recomendando lugares donde poder invertir en los estados de USA . Desarrollo creado en conjunto con 4 colegas",
         url: "https://reco-system.streamlit.app/"
     },
     {
@@ -28813,7 +28814,7 @@ const Portfolio = ()=>{
                             alignSelf: "center"
                         },
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: (0, _designDeskJpegDefault.default),
+                            src: (0, _backJpegDefault.default),
                             style: {
                                 height: "90%",
                                 width: "100%",
@@ -28896,8 +28897,8 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/design-desk.jpeg":"jSSP3","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jSSP3":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "design-desk.df4cd0cf.jpeg" + "?" + Date.now();
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","/src/images/BACK.jpeg":"11nzM"}],"11nzM":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "BACK.582b85ae.jpeg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
 
