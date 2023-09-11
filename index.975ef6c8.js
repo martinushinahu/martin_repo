@@ -28777,7 +28777,7 @@ const imageAltText = "desktop with books and laptop";
     },
     {
         title: "Sistema de Recomendaci\xf3n para Negocios \uD83C\uDFAF",
-        description: "Ayuda a brindar una orientaci\xf3n precisa y estrat\xe9gica para tomar decisiones informadas en el \xe1mbito empresarial, recomendando lugares donde poder invertir en los estados de USA . Desarrollo creado en conjunto con 4 colegas",
+        description: "Ayuda a brindar una orientaci\xf3n precisa y estrat\xe9gica para tomar decisiones informadas en el \xe1mbito empresarial, recomendando lugares donde poder invertir en los estados de USA . Desarrollo creado en conjunto con 4 colegas.",
         url: "https://reco-system.streamlit.app/"
     },
     {
