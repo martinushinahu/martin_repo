@@ -118,4 +118,32 @@ img.socialIcon {
   width: 30px;
 }
 
+.skills-list {
+  columns: 2;
+  gap: 3rem;
+}
+
+@media (max-width: 768px) {
+  .skills-list {
+    columns: 1;
+    margin-left: 3rem;
+  }
+
+  .container {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+  }
+
+  .box {
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .desktop-image {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=index.4d663569.css.map */
